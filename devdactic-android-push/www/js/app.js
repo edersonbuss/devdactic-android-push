@@ -27,11 +27,17 @@ angular.module('starter', ['ionic','ionic.service.core', 'starter.controllers', 
       "debug": true,
       "onNotification": function(notification) {
         alert('Received push notification!');
+        var payload = notification.payload;
+       console.log(notification, payload);
+      },
+       "onRegister": function(data) {
+           console.log(data.token);
       },
       "pluginConfig": {
         "android": {
           "iconColor": "#0000FF"
         }
+        
       }
     });
     var user = Ionic.User.current();
@@ -41,16 +47,30 @@ angular.module('starter', ['ionic','ionic.service.core', 'starter.controllers', 
     }
     
     // Just add some dummy data..
-    user.set('name', 'Simon');
-    user.set('bio', 'This is my little bio');
-    user.save();
+    //user.set('name', 'Ederson');
+    //user.set('bio', 'This is my little bio');
+    //user.save();
+    console.log("User saved:"+user);
    
-    var callback = function(data) {
-      console.log("Device token:",data.token);
-      push.addTokenToUser(user);
-      user.save();
+    var callback = function(pushToken) {
+      console.log("Device token:"+pushToken.token);
+      alert("Device token:"+pushToken.token);
+      //push.addTokenToUser(user);
+      user.addPushToken(pushToken);
+      var success = function (response) {
+            console.log('user was saved');
+        };
+
+        var failure = function (error) {
+            console.log('user was NOT saved' + error);
+        };
+
+        user.save().then(success, failure);
+      
     };
+    console.log("antes de push.register");
     push.register(callback);
+    console.log("depois de push.register");
     
   
   });
