@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\pre-dexed\debug\classes-ef1be157ad2091697e03ff1a0f08f530a56c1f4c.jar" />
+    </item>
+    <item
+        jar="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\pre-dexed\debug\classes-e74161ac3baa187ae074e326ce84704ef4c1ffac.jar" />
+    </item>
+    <item
+        jar="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\pre-dexed\debug\classes-ff089e89f742f40ba4ecee2ea3fe56a38b008782.jar" />
+    </item>
+    <item
+        jar="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5321936716e2bd9ea6156f07819c021f8dd951d6">
+        <dex dex="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\pre-dexed\debug\classes-cf26687576db584edfc08e44cc440311fd5adb8c.jar" />
+    </item>
+    <item
+        jar="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-12544a69c0fb9bf297a4180901c55161937dc98a.jar" />
+    </item>
+    <item
+        jar="C:\Users\edersonjeske\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-934325cf0ae4e41b734cbfd9fc0e149161cede74.jar" />
+    </item>
+    <item
+        jar="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a57337a520bf40b9ad1e074cb780527dffa1aac">
+        <dex dex="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\pre-dexed\debug\classes-44e40a9e85c245a7b2cb12369759ff8cda25946b.jar" />
+    </item>
+    <item
+        jar="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="076c7d9e22cc325b8008ff799e0c06dfb8eefdf3">
+        <dex dex="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-b0ddadb1df7b48340fcfa927795397732b5157e4.jar" />
+    </item>
+    <item
+        jar="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="C:\Users\edersonjeske\workspace_git\devdactic-android-push\devdactic-android-push\platforms\android\build\intermediates\pre-dexed\debug\classes-b43e6a24e738fa20bcfc9487f20acc87a89c8c61.jar" />
+    </item>
+
+</items>
